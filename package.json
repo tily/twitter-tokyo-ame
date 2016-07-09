@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tily <tidnlyam@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "dotenv": "^2.0.0",
+    "twit": "^2.2.4",
+    "zwpad": "0.0.0"
+  }
 }
