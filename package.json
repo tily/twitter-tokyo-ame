@@ -11,6 +11,7 @@
   "dependencies": {
     "cron": "^1.1.0",
     "dotenv": "^2.0.0",
+    "tokyo-ame": "0.0.1",
     "twit": "^2.2.4",
     "zwpad": "0.0.0"
   }
