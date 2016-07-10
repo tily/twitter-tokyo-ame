@@ -1,5 +1,7 @@
 # twitter-tokyo-ame
 
+A script to tweet rainfall intensity changes at some point in Tokyo.
+
 ## Usage
 
 Write your configuration to .env:
