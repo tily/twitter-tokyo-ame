@@ -26,18 +26,18 @@ node index.js
 If the intensity around the specified point changed, a tweet like this will be posted:
 
 ```
-Rainfall intensity changed from 並の雨 to 弱い雨 around 自宅
+Rainfall intensity changed from 並の雨 to 弱い雨 around スカイツリー
 ```
 
 ## Debugging
 
-You can debug the program by setting 'DEBUG' to 1.
+You can debug the program by setting `DEBUG` to 1.
 
 ```
 SCHEDULE='* * * * * *' DEBUG=1 node index.js
 ```
 
-With the command above, the previous intensity is set to デバッグ, so that you will get the following tweet when you run the program:
+With the command above, the previous intensity is set to `デバッグ`, so that you will get the following tweet when you run the program:
 
 ```
 Rainfall intensity changed from デバッグ to 降雨なし around スカイツリー
